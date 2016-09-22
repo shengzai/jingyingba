@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>新手入门</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/public.css">
+	<link rel="stylesheet" type="text/css" href="css/2.appraise_drawback.css"/>
+</head>
+<body>
+<div class="header">
+	<div class="nav">
+		<img src="img/public/logo.png">
+		<div id="select">
+			北京
+			<img src="img/public/row.png">
+			<div id="city">
+				<i></i>
+				<div>
+					<a href="javascript:void;">
+						<img src="img/public/city1.png">
+						<p>北京</p>
+					</a>
+				</div>
+				<div>
+				<a href="javascript:void;">
+					<img src="img/public/city2.png">
+					<p>大连</p>
+				</a>
+				</div>
+				<div>
+				<a href="javascript:void;">
+					<img src="img/public/city3.png">
+					<p>郑州</p>
+				</a>
+				</div>
+				<div>
+				<a href="javascript:void;">
+					<img src="img/public/city4.png">
+					<p>上海</p>
+				</a>
+				</div>
+				<div>
+				<a href="javascript:void;">
+					<img src="img/public/city5.png">
+					<p>广州</p>
+				</a>
+				</div>
+				<div>
+				<a href="javascript:void;">
+					<img src="img/public/city6.png">
+					<p>西安</p>
+				</a>
+				</div>
+				<div>
+				<a href="javascript:void;">
+					<img src="img/public/city7.png">
+					<p>武汉</p>
+				</a>
+				</div>
+			</div>
+		</div>
+		<ul id="nav_title">
+			<li class="nav_active"><a href="javascript:void(0);">首页</a></li>
+			<li><a href="javascript:void(0);">线下课程</a></li>
+			<li><a href="javascript:void(0);">在线课程</a></li>
+			<li><a href="javascript:void(0);">学校</a></li>
+			<li><a href="javascript:void(0);">互联网头条</a></li>
+			<li><a href="javascript:void(0);">+提问</a></li>
+		</ul>
+		<div id="sign" style="display: none;">
+			<a href="javascript:void(0);"><span id="signIn">登录 &nbsp;</span></a>
+			<span>|</span>
+			<a href="javascript:void(0);"><span id="signUp">&nbsp; 注册</span></a>
+		</div>
+		<div id="nav_mine">
+			<img src="img/public/user_tou.png">
+			<span>	个人中心</span>
+			<img src="img/public/row_solid.png">
+			<ul id="mine_list">
+				<li>个人中心</li>
+				<li>个人中心</li>
+				<li>个人中心</li>
+				<li>个人中心</li>
+				<li>个人中心</li>
+			</ul>
+		</div>
+	</div>
+</div>
+	
+	<div id="main" class="clearfix">
+		<div class="main_left">
+			<div id="catalogue">个人中心</div>
+			<div class="active">
+				<div id="graen"></div>
+				我的订单
+			</div>
+		</div>
+		
+		<div class="main_right">
+				<h2>我的订单</h2>
+				
+			<div class="content">
+				<ul class="list clearfix">
+					<li class="active_list">全部<div id="cyan"></div></li>
+					<li>待付款</li>
+					<li>已支付</li>
+					<li>待评价</li>
+					<li>已完成</li>
+					<li>已取消<a id="delete">删除订单</a></li>
+				</ul>
+				
+				<div class="content_bottom">
+					<p>
+						<input type="checkbox" id="all"/>&nbsp;全选 
+						<span class="information">订单详情</span>
+						<span>下单时间</span>
+						<span>数量</span>
+						<span>金额</span>
+						<span>交易状态</span>
+						<span>操作</span>
+					</p>
+					<ul>
+						<!--待付款-->
+						<li>
+							<div class="show">
+								<input type="checkbox"  id=""  />&nbsp; 
+								<img src="img/menu/dingdan.png"/>
+								<span class="information">
+									<span>儿童手工纸 彩色皱纹纸DIY材料 手揉纸 幼</span>
+									<span>儿园环境布置智</span>
+									<br />
+									<span class="OrderID">订单号：9374837</span>
+								</span>
+								<span>2015-02-15</span>
+								<span>1</span>
+								<span>￥18900</span>
+								<span >待付款</span>
+								<span class="status"><a href="javascript:void(0);" class="pay_y">付款</a></span>
+							</div>
+						</li>
+						
+						<!--已付款-->
+						<li>
+							<div class="show">
+								<input type="checkbox"  id=""  />&nbsp; 
+								<img src="img/menu/dingdan.png"/>
+								<span class="information">
+									<span>儿童手工纸 彩色皱纹纸DIY材料 手揉纸 幼</span>
+									<span>儿园环境布置智</span>
+									<br />
+									<span class="OrderID">订单号：9374837</span>
+								</span>
+								<span>2015-02-15</span>
+								<span>1</span>
+								<span>￥18900</span>
+								<span >已付款</span>
+								<span class="status"><a href="javascript:void(0);" class="pay_orange">退款</a></span>
+							</div>
+							<div class="hide">
+								<form action="javascript:void(0);" method="post">
+									<label for="">
+										<span>*</span>退款原因：<input type="text" value="" />
+									</label>
+									<label for="">
+										<span>*</span>退款金额：<input type="text" value="" />
+									</label>
+									<label for="">
+										<span class="no_red">退款说明：</span>
+										<textarea name="" rows="" cols="">淘宝美工实战案例体验课【特邀客座讲师】淘宝美工设计师必学课程，免费领取学习视频加 QQ群:387078125淘宝美工设计师必学课程淘宝美	
+										</textarea>
+									</label>
+									<input type="submit" value="提交退款申请"/>
+								</form>
+							</div>
+						</li>
+						
+						<!--已完成 没有评价-->
+						<li>
+							<div class="show">
+								<input type="checkbox"  id=""  />&nbsp; 
+								<img src="img/menu/dingdan.png"/>
+								<span class="information">
+									<span>儿童手工纸 彩色皱纹纸DIY材料 手揉纸 幼</span>
+									<span>儿园环境布置智</span>
+									<br />
+									<span class="OrderID">订单号：9374837</span>
+								</span>
+								<span>2015-02-15</span>
+								<span>1</span>
+								<span>￥18900</span>
+								<span >已完成</span>
+								<span class="status"><a href="javascript:void(0);" class="pay_orange">评价</a></span>
+							</div>
+							<div class="hide">
+								<form action="javascript:void(0);" method="post">
+									<label for="">
+										<span>*</span>评分：<input type="text" value="" />
+									</label>
+									<label for="">
+										<span>*</span>心得：<input type="text" value="" />
+									</label>
+									<label for="">
+										<span class="no_red">评价：</span>
+										<textarea name="" rows="" cols="">淘宝美工实战案例体验课【特邀客座讲师】淘宝美工设计师必学课程，免费领取学习视
+频加 QQ群:387078125淘宝美工设计师必学课程淘宝美	
+										</textarea>
+									</label>
+									<input type="submit" value="发表评论"/>
+								</form>
+							</div>
+						</li>
+						
+						
+						<!--已评价-->
+						<li>
+							<div class="show">
+								<input type="checkbox"  id=""  />&nbsp; 
+								<img src="img/menu/dingdan.png"/>
+								<span class="information">
+									<span>儿童手工纸 彩色皱纹纸DIY材料 手揉纸 幼</span>
+									<span>儿园环境布置智</span>
+									<br />
+									<span class="OrderID">订单号：9374837</span>
+								</span>
+								<span>2015-02-15</span>
+								<span>1</span>
+								<span>￥18900</span>
+								<span >已完成</span>
+								<span class="status">已评价</span>
+							</div>
+						</li>
+						
+						
+						<!--申请退款 处理中-->
+						<li>
+							<div class="show">
+								<input type="checkbox"  id=""  />&nbsp; 
+								<img src="img/menu/dingdan.png"/>
+								<span class="information">
+									<span>儿童手工纸 彩色皱纹纸DIY材料 手揉纸 幼</span>
+									<span>儿园环境布置智</span>
+									<br />
+									<span class="OrderID">订单号：9374837</span>
+								</span>
+								<span>2015-02-15</span>
+								<span>1</span>
+								<span>￥18900</span>
+								<span >申请退款</span>
+								<span class="status">处理中</span>
+							</div>
+						</li>
+						
+						
+						<!--已退款-->
+						<li>
+							<div class="show" style="border: 0;">
+								<input type="checkbox"  id=""  />&nbsp; 
+								<img src="img/menu/dingdan.png"/>
+								<span class="information">
+									<span>儿童手工纸 彩色皱纹纸DIY材料 手揉纸 幼</span>
+									<span>儿园环境布置智</span>
+									<br />
+									<span class="OrderID">订单号：9374837</span>
+								</span>
+								<span>2015-02-15</span>
+								<span>1</span>
+								<span>￥18900</span>
+								<span >已完成</span>
+								<span class="status">已退款</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+				
+			</div>
+			
+		</div>
+		
+	</div>
+
+
+	
+	<div class="footer">
+        <div class="minWidth">
+            <!--友情链接-->
+            <div class="friendshiplink">
+                <h2>友情链接</h2>
+                <p>
+    					<a href="#" target="_blank">蓝欧科技</a>
+    					<a href="#" target="_blank">蓝欧科技</a>
+    					<a href="#" target="_blank">蓝欧科技</a>
+    					<a href="#" target="_blank">蓝欧科技</a>
+                		<a href="#" target="_blank">蓝欧科技</a>
+                		<a href="#" target="_blank">蓝欧科技</a>
+                		<a href="#" target="_blank">蓝欧科技</a>
+                		<a href="#" target="_blank">蓝欧科技</a> 
+                </p>
+                <a href="javascript:void(0);" target="_self" class="more">更多</a>
+            </div>
+            <!--友情链接-->
+            
+            <!--更多链接-->
+            <div class="morelinks">
+                <ul>
+                    <h3>我们的实验室</h3>
+                    <li><a href="#" target="_self">在线编程</a></li>
+                    <li><a href="#" target="_self">奖学制度</a></li>
+                    <li><a href="#" target="_self">在线班级</a></li>
+                    <li><a href="#" target="_self">课后60分钟</a></li>
+                </ul>
+                <ul>
+                    <h3>关于我们</h3>
+                    <li><a href="#" target="_self">精英吧简介</a></li>
+                    <li><a href="#" target="_self">联系我们</a></li>
+                    <li><a href="#" target="_self">加入我们</a></li>
+                </ul>
+                <ul>
+                    <h3>现有课程</h3>
+                    <li><a href="#" target="_self">iOS</a></li>
+                    <li><a href="#" target="_self">Android</a></li>
+                    <li><a href="#" target="_self">unity3D</a></li>
+                    <li><a href="#" target="_self">H5</a></li>
+                </ul>
+                <ul>
+                    <h3>帮助</h3>
+                    <li><a href="#" target="_self">联系客服</a></li>
+                    <li><a href="#" target="_self">版权声明</a></li>
+                    <li><a href="#" target="_self">法律声明</a></li>
+                    <li><a href="#" target="_self">服务条款</a></li>
+                </ul>
+                <ul class="feedback">
+                    <h3>反馈方式</h3>
+                    <li><a href="#">电子邮箱：help@xxxxx.com</a></li>
+                    <li><a href="javascript:void(0);">微信反馈：精英吧微信公众号</a></li>
+                    <img src="img/public/2-Dbarcodes.png">
+                </ul>            
+                <div class="appcode">
+                    <h3>精英吧APP扫描下载</h3>
+                    <img src="img/public/2-Dbarcodes2.png">
+                    <!--<span>（扫码下载）</span>-->
+                </div>
+            </div>
+            <!--更多链接-->
+        </div>
+        <!--公司名称-->
+        <div class="companyname">
+			<span>蓝欧科技有限公司©997-2016</span>|<span><a href="javascript:void(0);" target="_blank">北京市海淀区清河毛纺路路南甲36号金五星商业大厦5层</a></span>
+        </div>
+        <!--公司名称-->
+	</div>
+	<script type="text/javascript" src="js/public.js"></script>
+	<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+	<script src="js/2.appraise_drawback.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
